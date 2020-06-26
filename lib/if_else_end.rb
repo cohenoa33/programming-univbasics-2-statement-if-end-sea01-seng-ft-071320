@@ -6,7 +6,7 @@ if run_code_inside
 end
 puts "Code after if...end"
 
-#else if
+#if else end
 chance_of_rain = 0.2
 puts "Let's go outside!"
 if chance_of_rain > 0.5
@@ -16,4 +16,4 @@ else
 end
 puts "Oh, and always wear sunscreen!"
 
-
+#if elseif else end
