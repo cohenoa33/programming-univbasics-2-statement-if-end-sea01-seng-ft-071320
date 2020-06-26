@@ -16,4 +16,12 @@ else
 end
 puts "Oh, and always wear sunscreen!"
 
-#if elseif else end
+#if elsif else end
+chance_of_rain = 0.2
+if chance_of_rain <= 0.25
+  puts "Pack a sun Shelter!"
+elsif (chance_of_rain > 0.25) && (chance_of_rain < 0.75)
+  puts "Pack an umbrella!"
+else
+puts "Stay home and read Hegel"
+end
