@@ -6,7 +6,7 @@ if current_time % 2 == 0
 else 
   puts "Odd!"
 end
-puts "Oh, and always wear sunscreen!"
+
 
 
 
