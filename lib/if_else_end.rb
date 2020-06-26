@@ -1,6 +1,6 @@
 
 #if else end
-current_second = 0.2
+current_second = Time.now
 
 if chance_of_rain > 0.5
   puts "Pack an umbrella!"
