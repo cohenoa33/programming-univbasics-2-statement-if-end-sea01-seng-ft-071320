@@ -27,10 +27,7 @@ puts "Stay home and read Hegel"
 end
 
 
-this_year = 2019 
+this_year = time.now.year 
 puts "Hey, it's 2019!" if
 this_year == 2019
 
-this_year = 2019
-puts "Hey its not 2019"
-unless this_year == 2019
