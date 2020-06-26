@@ -1,6 +1,7 @@
+Current_time = Time.now
+Current_time.to_s
 
-current_second = Time.now
-if current_second class == Integer
+if current_time class == Integer
   puts "Even!"
 else 
   puts "Odd!"
