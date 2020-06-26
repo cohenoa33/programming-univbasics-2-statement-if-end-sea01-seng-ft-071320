@@ -6,6 +6,8 @@ if run_code_inside
 end
 puts "Code after if...end"
 
+\n
+
 
 chance_of_rain = 0.2 
 puts "Let's go outside!"
