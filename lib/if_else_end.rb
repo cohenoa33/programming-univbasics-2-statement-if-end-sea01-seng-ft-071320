@@ -1,11 +1,10 @@
 
 #if else end
 current_second = Time.now
-
-if chance_of_rain > 0.5
-  puts "Pack an umbrella!"
+if current_second.class = Integer
+  puts "Even!"
 else 
-  puts "Enjoy the fine day!"
+  puts "Odd!"
 end
 puts "Oh, and always wear sunscreen!"
 
